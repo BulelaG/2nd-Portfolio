@@ -1,0 +1,567 @@
+/* --------------------------------------------HOME-PAGE-------------------------------- */
+#home-page{
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+
+/* -------------------------------------------Body styling-------------------------------------------------------------- */
+
+body{
+    box-sizing: border-box;
+    background-color: grey;
+    overflow-x: hidden;
+  
+
+}
+/* -----------------------------------------Landing styling---------------------------------------------------------------------- */
+#landing-page{
+    box-sizing: content-box;
+    background-color: #ececec;
+    /* background-image: url(keyboard.jpg); */
+    object-fit: cover;   
+}
+#landing-photo{
+    border-radius: 50%;
+    border-style: solid;
+    border: 8px;
+    border-color: rgb(228, 215, 215);
+}
+
+/* ---------------------------------------------navbar styles--------------------------------------------------------------- */
+ .navbar{
+     position: fixed !important ;top: 0 !important;
+     width: 100%;
+     z-index: 48;
+    
+
+ }
+
+.nav-link{
+    font-size: 23px;
+    
+}
+
+nav{
+    background-color: rgb(190, 190, 190);
+    
+}
+.nav-text:hover{
+    color: rgb(97, 25, 155);
+}
+/*------------------------------------------ Underlining-------- Headings---------------------------------------------------- */
+
+h1{
+    border-color: gray;
+    border-bottom: 3px;
+    border-width: 3px;
+}
+
+/* ------------------------------------------Testimonials CSS--------------------------------------------------------------- */
+section{
+    box-sizing: border-box;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.testimonials-image{
+    height: 300px;
+    width: 400px;
+    border-radius: 49%;
+    justify-content: center;
+    padding-top: 80px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+.rounded-circle{
+
+    object-fit: cover;
+}
+
+/*-------------------------------------------Portfolio CSS ---------------------------------------------------------------- */
+#portfolio-page{
+    
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+   
+
+
+}
+#portfolio-row{
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+
+}
+#portfolio-image{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+/* ---------------------- */
+
+
+
+
+
+
+
+/* -------------------------------------------About page CSS--------------------------------------------------------------------- */
+h1, #purple-myname{
+padding-top: 20px;
+}
+#about-page{
+padding-left: 150px;
+padding-right: 150px;
+}
+
+/* -----------------------------------------About image----------------------------- */
+#about-image{
+    border-radius: 10%;
+}
+.card {
+    border: none !important;
+}
+
+/* ------------------------------------------Timeline css------------------------------------------------------------------- */
+
+#timeline-page{
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+body{
+    /* background-color: #f7f7f7; */
+    margin-top:20px;
+}
+
+.main-timeline {
+    position: relative
+}
+
+.main-timeline:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: #c6c6c6;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.main-timeline .timeline {
+    margin-bottom: 40px;
+    position: relative
+}
+
+.main-timeline .timeline:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.main-timeline .icon {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.main-timeline .icon:before,
+.main-timeline .icon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .icon:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -3px
+}
+
+.main-timeline .icon:after {
+    border: 2px solid #c6c6c6;
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:before {
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:after {
+    left: -3px
+}
+
+.main-timeline .date-content {
+    width: 50%;
+    float: left;
+    margin-top: 22px;
+    position: relative
+}
+
+.main-timeline .date-content:before {
+    content: "";
+    width: 36.5%;
+    height: 2px;
+    background: #c6c6c6;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0
+}
+
+.main-timeline .date-outer {
+    width: 125px;
+    height: 125px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    z-index: 1
+}
+
+.main-timeline .date-outer:before,
+.main-timeline .date-outer:after {
+    content: "";
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .date-outer:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -6px
+}
+
+.main-timeline .date-outer:after {
+    border: 2px solid #c6c6c6;
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:before {
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:after {
+    left: -6px
+}
+
+.main-timeline .date {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 27%;
+    left: 0
+}
+
+.main-timeline .month {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.main-timeline .year {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #232323;
+    line-height: 36px
+}
+
+.main-timeline .timeline-content {
+    width: 50%;
+    padding: 20px 0 20px 50px;
+    float: right
+}
+
+.main-timeline .title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 15px 0
+}
+
+.main-timeline .description {
+    margin-bottom: 0
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content {
+    float: right
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content:before {
+    left: 10px
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content {
+    padding: 20px 50px 20px 0;
+    text-align: right
+}
+
+@media only screen and (max-width: 991px) {
+    .main-timeline .date-content {
+        margin-top: 35px
+    }
+    .main-timeline .date-content:before {
+        width: 22.5%
+    }
+    .main-timeline .timeline-content {
+        padding: 10px 0 10px 30px
+    }
+    .main-timeline .title {
+        font-size: 17px
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 10px 30px 10px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-timeline:before {
+        margin: 0;
+        left: 7px
+    }
+    .main-timeline .timeline {
+        margin-bottom: 20px
+    }
+    .main-timeline .timeline:last-child {
+        margin-bottom: 0
+    }
+    .main-timeline .icon {
+        margin: auto 0
+    }
+    .main-timeline .date-content {
+        width: 95%;
+        float: right;
+        margin-top: 0
+    }
+    .main-timeline .date-content:before {
+        display: none
+    }
+    .main-timeline .date-outer {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date-outer:before,
+    .main-timeline .date-outer:after {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date {
+        top: 30%
+    }
+    .main-timeline .year {
+        font-size: 24px
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        width: 95%;
+        text-align: center;
+        padding: 10px 0
+    }
+    .main-timeline .title {
+        margin-bottom: 10px
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+
+
+/*--------------------------------------------- Heading's COLORING--------------------------------------------------------------- */
+
+#purple-myname{
+    color: blueviolet;
+}
+
+/* ---------------------------------------------MEDIA QUERIES  ------------------------------------------------------------------- */
+
+@media  (max-width :650px) {
+
+#landing-photo{
+    height: 200px;
+    width: 200px;
+    
+}
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+    
+/* }iframe-------------------------------- */
+iframe{
+  
+    border: 25 solid black;
+    box-sizing: border-box;
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+    float: right;
+    place-content:inherit;
+    
+}
+
+@media only screen and (max-width: 480px){
+    /* --------------------------------------------HOME-PAGE-------------------------------- */ 
+.navbar-toggler{
+    position: fixed;
+    top:30px;
+    right:10px;
+}
+}
+
+
+/* -------------------------------------------Body styling-------------------------------------------------------------- */
+
+body{
+    box-sizing: border-box;
+ 
+    overflow-x: hidden;
+
+}
+section{
+
+overflow-x: hidden;
+width: 100%;
+
+
+}
+/* -----------------------------------------Landing styling---------------------------------------------------------------------- */
+#landing-page{
+    box-sizing: content-box;
+    background-color: #f2f2f2;
+   
+}
+#landing-photo{
+    border-radius: 50%;
+    border-style: solid;
+    border: 6px;
+    border-color: white;
+}
+
+/* ---------------------------------------------navbar styles--------------------------------------------------------------- */
+ .navbar{
+     position: fixed !important ;top: 0 !important;
+     width: 100%;
+     z-index: 48;
+    
+
+ }
+
+.nav-link{
+    font-size: 23px;
+    
+}
+
+nav{
+    background-color: rgb(160, 134, 156);
+    
+}
+.nav-text:hover{
+    color: rgb(97, 25, 155);
+}
+/*------------------------------------------ Underlining-------- Headings---------------------------------------------------- */
+
+h1{
+    border-color: gray;
+    border-bottom: 3px;
+    border-width: 3px;
+}
+
+/* ------------------------------------------Testimonials CSS--------------------------------------------------------------- */
+.testimonials-image{
+    height: 300px;
+    width: 400px;
+    border-radius: 49%;
+    justify-content: center;
+}
+
+/*-------------------------------------------Portfolio CSS ---------------------------------------------------------------- */
+#portfolio-page{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 170px;
+
+}
+
+
+/* -------------------------------------------About page CSS--------------------------------------------------------------------- */
+h1, #purple-myname{
+padding-top: 20px;
+}
+#about-page{
+padding-left: 50px;
+padding-right: 50px;
+}
+
+/* -----------------------------------------About image----------------------------- */
+#about-image{
+    border-radius: 10%;
+}
+.card {
+    border: none !important;
+}
+
+/* ------------------------------------------Timeline css------------------------------------------------------------------- */
+
+#timeline-page{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+#testimonials-page{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+}
+
+body{
+    
+    margin-top:20px;
+}
+
+#about-image{
+    border-radius: 10%;
+    width: 300px;
+    height: 350px;
+}
+
+
+
+
+/* --------------------------------The Contact Form---------------- */
+
+#contact-page{
+padding-right: 5px;
+
+
+}
+}

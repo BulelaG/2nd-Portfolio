@@ -1,18 +1,36 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar />
+    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
+    <LandingPage msg="Welcome to my page.js App"/>
+  
   </div>
+
+
+  
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import LandingPage from '@/components/LandingPage.vue';
+import Navbar from '@/components/navbar.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    LandingPage,
+    Navbar,
+    Footer
   }
 }
 </script>
+<style scoped>
+
+template {
+
+overflow-x: hidden;
+
+
+}
+</style>
