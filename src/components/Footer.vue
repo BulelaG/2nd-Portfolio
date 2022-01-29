@@ -16,5 +16,18 @@ export default {
 }
 </script>
 <style scoped>
-div{background-color:#e0e0e0;}
+
+  #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 40px;
+            background: rgb(105, 105, 105);
+        }
+div{background-color:#535c63;
+
+
+}
 </style>

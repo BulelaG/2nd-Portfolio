@@ -83,15 +83,18 @@ export default {
    
 }
 
+
 #nav {
   padding: ;
   background-color: white;
   position: fixed;
   padding-top: 0;
   padding-bottom: 0;
+  width: 100%;
+  z-index: 1;
 }
 a{
-  padding-right: 1100px;
+  padding-right:1100px ;
    padding-top: 0;
   padding-bottom: 0;
 }

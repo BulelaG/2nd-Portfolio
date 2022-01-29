@@ -4,11 +4,11 @@
    <!-- Portfolio section -->
 
      <section id="portfolio-page" style=" padding-right: 90px; padding-left: 90px;">
-      <h1 class=" text-center" style="padding-top: 2px; padding-bottom: 20px; border-bottom:solid 2px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "  id= purple-myname >My Projects</h1>
+      <h1 class=" text-center" style="padding-top: 2px; padding-bottom: px; border-bottom:solid 2px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "  id= purple-myname >My Projects</h1>
      <div id="portfolio-row" style="padding-top: 110px;"  class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col col-md-12 col-md-4 col-lg-4">
         <div class="card h-100">
-          <img style="height:70%; width :60%; display: flex; justify-content: center;"  id="portfolio-image" src="../assets/NeededFiles/mock-portfolio.png" class="card-img-top" alt="...">
+          <img style="height:70%; width :60%; display: flex; justify-content: center; padding-top:100px; padding-left:100px;"  id="portfolio-image" src="../assets/NeededFiles/mock-portfolio.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Mock Portfolio</h5>
             <p class="card-text">First ever portfolio created with Html and Css </p>
@@ -52,6 +52,8 @@
       </div>
     </div>
   </section>
+
+  
 
   </div>
   

@@ -19,15 +19,15 @@
         <div class="card-body">
        
            <h4 id="purple-myname" class="card-title"><strong> Personal Details </strong></h4>
-          <p class="card-text">   
+          <!-- <p class="card-text">    -->
             
-            <h5>Full name:</h5><p>Bulela Gomoshe</p> 
+            <h5>Full name:</h5><p>Bulela Gomoshe</p>
             <h5> Date of birth:</h5> 26/02/2000
             <h5>  Location:</h5> Cape Town
             <h5> Cell Phone number:</h5> 0672169078
             <h5>Email Address:</h5> bulelagomoshe1@gmail.com <br>
-            </p>
-          <p class="card-text"><small id="purple-myname"> <button>Download CV <a href="" download="./Bulela G'sCURRICULUM VITAE .pdf"></a> </button></small></p>
+            <!-- </p> -->
+          <p class="card-text"><small id="purple-myname"> <button class="download" >Download CV <a  href="./Bulela G'sCURRICULUM VITAE .pdf" download="./Bulela G'sCURRICULUM VITAE .pdf"></a> </button></small></p>
         </div>
       </div>
       <div class="card">
@@ -160,6 +160,13 @@ export default {
 <style scoped>
 
 /* -------------------------------------------About page CSS--------------------------------------------------------------------- */
+.download{
+
+  width: 150px;
+
+}
+
+
 h1, #purple-myname{
 padding-top: 20px;
 }
