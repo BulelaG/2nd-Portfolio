@@ -20,7 +20,7 @@
           border-radius="45%"
           height="80"
         />
-  </router-link>
+  <div></div></router-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -70,6 +70,9 @@ export default {
 
 
 <style>
+#purple-myname{
+  color: rgb(2, 26, 136);
+}
 
  
 
@@ -85,7 +88,6 @@ export default {
 
 
 #nav {
-  padding: ;
   background-color: white;
   position: fixed;
   padding-top: 0;
@@ -93,7 +95,7 @@ export default {
   width: 100%;
   z-index: 1;
 }
-a{
+.navbar-nav{
   padding-right:1100px ;
    padding-top: 0;
   padding-bottom: 0;
@@ -126,5 +128,14 @@ a{
     border: 8px;
     border-color: rgb(228, 215, 215);
 }
+@media only screen and (max-width: 480px){
+    /* --------------------------------------------HOME-PAGE-------------------------------- */ 
+.navbar-toggler{
+    position: fixed;
+    top:30px;
+    right:10px;
+}
+}
+
 
 </style>

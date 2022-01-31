@@ -116,17 +116,17 @@ export default {
 
 </script>
 <style scoped>
-/*-------------------------------------------Portfolio CSS ---------------------------------------------------------------- */
+/* -------------------------------------------Portfolio CSS ----------------------------------------------------------------
 #portfolio-page{
     
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
     padding-left: 150px;
     padding-right: 150px;
    
 
 
-}
+} */
 #portfolio-row{
     padding-top: 19px;
     padding-bottom: 19px;

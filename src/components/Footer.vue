@@ -23,7 +23,7 @@ export default {
             bottom: 0;
             width: 100%;
             /* Height of the footer*/ 
-            height: 40px;
+            height: 30px;
             background: rgb(105, 105, 105);
         }
 div{background-color:#535c63;

@@ -24,13 +24,14 @@
             <p> Lets connect!</p>
           </h2>
           </div>
-          <div class="d-grid gap-2 d-flex justify-content-center">
-            <button type="button" style="color: rgb(106, 85, 117);" class="btn btn-muted btn-lg px-4 gap-3">
-             <a style="color: rgb(76, 86, 88); padding-left:;" href=" https://github.com/BulelaG" target="_blank"><i  class="bi bi-github" style="font-size: 2em;padding-bottom: 0px;"></i></a>
-            </button>
-         
-            <br><br><br>
-          </div>      
+         <div class="d-grid gap-2 d-flex justify-content-center">
+          <a style="color: rgb(49, 49, 49); padding-right:;200px" href=" https://github.com/BulelaG" target="_blank"> <i  style="font-size: 2em;" class="bi bi-github"></i> 
+          </a><a style="color: rgb(49, 66, 212);" href="https://www.linkedin.com/in/bulelag/" target="_blank" ><i   style="font-size: 2em;;" class="bi bi-linkedin"> </i></a>
+          <a style="color: rgb(49, 66, 212);" href="https://www.linkedin.com/in/bulelag/" target="_blank" ><i   style="font-size: 2em;;" class="bi bi-linkedin"> </i></a>
+            <br><br><br><br><br><br>
+          </div>   
+            
+               
         </div>
       
     </section>
