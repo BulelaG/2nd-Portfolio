@@ -9,8 +9,9 @@
 <!-- The Nav -->
 <div id="nav">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <router-link class="navbar-brand" to="/">
-     <img
+  <router-link style="  padding-right:1100px ;
+" class="navbar-brand" to="/">
+     <img href="/"
           id="logo"
           class="d-block mx-auto mb-4 img-responsive"
           src="./assets/NeededFiles/LOGO.png"
@@ -20,18 +21,18 @@
           border-radius="45%"
           height="80"
         />
-  <div></div></router-link>
+  </router-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <router-link id="menu" to="/" class="nav-item nav-link active" >Home <span class="sr-only"></span></router-link>
-      <router-link id="menu" to="/about" class="nav-item nav-link" >About</router-link>
-            <router-link id="menu" to="/timeline" class="nav-item nav-link" >Timeline</router-link>
-      <router-link id="menu" to="/projects" class="nav-item nav-link" >Projects</router-link>
-      <router-link id="menu" to="/testimonials" class="nav-item nav-link" >Testimonials</router-link>
-      <router-link  id="menu" to="/contact" class="nav-item nav-link" >Contact</router-link>
+      <router-link id="menu" to="/about" class="nav-item nav-link" > About </router-link>
+            <router-link id="menu" to="/timeline" class="nav-item nav-link" > Timeline </router-link>
+      <router-link id="menu" to="/projects" class="nav-item nav-link" > Projects </router-link>
+      <router-link id="menu" to="/testimonials" class="nav-item nav-link" > Testimonials </router-link>
+      <router-link  id="menu" to="/contact" class="nav-item nav-link" > Contact </router-link>
     </div>
   </div>
 </nav>
@@ -74,7 +75,6 @@ export default {
   color: rgb(2, 26, 136);
 }
 
- 
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -88,32 +88,38 @@ export default {
 
 
 #nav {
+  
   background-color: white;
   position: fixed;
   padding-top: 0;
   padding-bottom: 0;
   width: 100%;
   z-index: 1;
+  
 }
 .navbar-nav{
   padding-right:1100px ;
    padding-top: 0;
   padding-bottom: 0;
+  
 }
 
 #nav a {
   font-weight: normal;
   color: #2c3e50;
-  padding:px;
+
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #nav a.router-link-exact-active {
  
-  color: #507597;
+ 
+  color: rgb(2, 26, 136);
 }
 #menu{
   font-size: 1.5em;
+  
+
 }
 /* -----------------------------------------Landing styling---------------------------------------------------------------------- */
 #landing-page{

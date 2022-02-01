@@ -7,6 +7,8 @@
 <br>
 <br>
 <br>
+<br>
+<br>
 <section class="mb-4">
 
 <!--Section: Contact v.2-->
@@ -126,7 +128,15 @@
 
 </section>
   </div>
-  
+  <br>
+    <br>
+      <br>
+        <br>
+          <br>
+            <br>
+              <br>
+                
+                    
 </template>
 
 <script>
@@ -140,6 +150,12 @@ export default {
 
 </script>
 <style scoped>
+
+.contact{
+
+padding-left: 200px;
+padding-right: 200px;
+}
 
 
 </style>

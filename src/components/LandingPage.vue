@@ -27,7 +27,8 @@
          <div class="d-grid gap-2 d-flex justify-content-center">
           <a style="color: rgb(49, 49, 49); padding-right:;200px" href=" https://github.com/BulelaG" target="_blank"> <i  style="font-size: 2em;" class="bi bi-github"></i> 
           </a><a style="color: rgb(49, 66, 212);" href="https://www.linkedin.com/in/bulelag/" target="_blank" ><i   style="font-size: 2em;;" class="bi bi-linkedin"> </i></a>
-          <a style="color: rgb(49, 66, 212);" href="https://www.linkedin.com/in/bulelag/" target="_blank" ><i   style="font-size: 2em;;" class="bi bi-linkedin"> </i></a>
+          <a style="color: rgb(49, 66, 212);" href="https://www.linkedin.com/in/bulelag/" target="_blank" > <img style="padding-top:5px;" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/34/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"/></a>
+          
             <br><br><br><br><br><br>
           </div>   
             
@@ -35,6 +36,9 @@
         </div>
       
     </section>
+
+   
+
   
 
      

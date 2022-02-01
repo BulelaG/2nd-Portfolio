@@ -24,9 +24,9 @@ export default {
             width: 100%;
             /* Height of the footer*/ 
             height: 30px;
-            background: rgb(105, 105, 105);
+            background: rgb(177, 177, 177);
         }
-div{background-color:#535c63;
+div{background-color:#b1b1b1;
 
 
 }

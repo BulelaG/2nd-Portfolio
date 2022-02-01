@@ -1,44 +1,27 @@
 <template>
   <div class="projects">
    <Navbar />
-   <!-- Portfolio section -->
+   <br>
+   <br>
+   <br>
+    <br>
+   <br>
+   <br>
+    <br>
 
-     <section id="portfolio-page" style=" padding-right: 90px; padding-left: 90px;">
-      <h1 class=" text-center" style="padding-top: 2px; padding-bottom: px; border-bottom:solid 2px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "  id= purple-myname >My Projects</h1>
-     <div id="portfolio-row" style="padding-top: 110px;"  class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col col-md-12 col-md-4 col-lg-4">
-        <div class="card h-100">
-          <img style="height:70%; width :60%; display: flex; justify-content: center; padding-top:100px; padding-left:100px;"  id="portfolio-image" src="../assets/NeededFiles/mock-portfolio.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Mock Portfolio</h5>
-            <p class="card-text">First ever portfolio created with Html and Css </p>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="btn btn-muted btn-lg px-4 gap-3">
-              <a style="color: rgb(76, 86, 88);" href=" https://github.com/BulelaG" target="_blank"><i  class="bi bi-github" style="font-size: 2em;padding-bottom: 400px;"></i></a>
-             </button>
-            <small class="text-muted">Last updated 3 weeks ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col col-md-12 col-md-4 col-lg-4">
-        <div class="card h-100"> 
-          <img style="height:70%; width :60%"  id="portfolio-image" src="../assets/NeededFiles/carousel.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Carousels Practice</h5>
-            <p class="card-text">This is a task where we practised carousels and modals.</p>
-          </div>
-          <div class="card-footer"><button type="button" class="btn btn-muted btn-lg px-4 gap-3">
-            <a style="color: rgb(76, 86, 88);" href="https://github.com/BulelaG/carousels" target="_blank"><i  class="bi bi-github" style="font-size: 2em;padding-bottom: 400px;"></i></a>
-           </button>
-            <small class="text-muted">Last updated a week ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col col-md-12 col-md-4 col-lg-4">
-        <div class="card h-100">
-          <img style="height:70%; width :60%" id="portfolio-image" src="../assets/NeededFiles/Calculator.png" class="card-img-top" alt="...">
-          <div class="card-body">
+   <!-- new projects code-->
+         <h1 class=" text-center" style="padding-top: 2px; padding-bottom: px; border-bottom:solid 2px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; "  id=purple-myname >My Projects</h1>
+<br><br>
+<br><br>
+
+ <section id="gallery" style="padding-bottom: 16px;">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="../assets/NeededFiles/Calculator.png" alt="" class="card-img-top">
+       <div class="card-body">
+         <br>
             <h5 class="card-title ">Calculator</h5>
             <p class="card-text"> This is I am currently working on.</p>
           </div>
@@ -48,16 +31,71 @@
              </button>
             <small class="text-muted">Last updated a week ago</small>
           </div>
-        </div>
+      <!-- <div class="card-body">
+        <h5 class="card-title">Sunset</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+       <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+        <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+      </div> -->
+     </div>
+    </div>
+  <div class="col-lg-4 mb-4">
+  <div class="card">
+      <img src="../assets/NeededFiles/BMI.png" alt="" class="card-img-top">
+       <div class="card-body">
+            <h5 class="card-title">Carousels Practice</h5>
+            <p class="card-text">This is a task where we practised carousels and modals.</p>
+          </div>
+          <div class="card-footer"><button type="button" class="btn btn-muted btn-lg px-4 gap-3">
+            <a style="color: rgb(76, 86, 88);" href="https://github.com/BulelaG/carousels" target="_blank"><i  class="bi bi-github" style="font-size: 2em;padding-bottom: 400px;"></i></a>
+           </button>
+            <small class="text-muted">Last updated a week ago</small>
+          </div>
+     
       </div>
     </div>
-  </section>
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+      <img src="../assets/NeededFiles/carousel.png" alt="" class="card-img-top">
+      <div class="card-body">
+            <h5 class="card-title">Mock Portfolio</h5>
+            <br>
+            <p class="card-text">First ever portfolio created with Html and Css </p>
+            
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-muted btn-lg px-4 gap-3">
+              <a style="color: rgb(76, 86, 88);" href=" https://github.com/BulelaG" target="_blank"><i  class="bi bi-github" style="font-size: 2em;padding-bottom: 400px;"></i></a>
+             </button>
+            <small class="text-muted">Last updated 3 weeks ago</small>
+          </div>
+
+    
+     </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- calling array -->
+
+    <!-- calling an array -->
+
+<br><br>
+<br><br>
+<br><br>
+<br>
+
+
+
+
+   <!-- new projects code -->
+  
 
   
 
   </div>
-  <br>
-  <br>
+  
   
 </template>
 
@@ -70,5 +108,62 @@ export default {
     name: 'Projects',
     components: {Navbar,Footer}
   }
+  const app = Vue.createApp({
+    data(){
+        return{
+            title: "Bulela",
+            fruits:["apple","banana","pear"],
+
+            projects:[
+                {
+                    image: "",
+                    title: "",
+                    description: "",
+                    date:""
+                },
+                {
+                    name:"Azabenathi",
+                    surname:"Pupuma"
+                }
+            ]
+        }
+    }
+})
+
+app.mount("#app")
 
 </script>
+
+<style scoped>
+.card-img-top{
+  height:300px;
+}
+
+.projects {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+    padding-left: 200px;
+    padding-right: 200px;     
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+</style>

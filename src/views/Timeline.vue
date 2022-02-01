@@ -8,8 +8,8 @@
             <br>
       <br>
          <br>
-            <br>
-            <br>
+            
+            
             <br>
  <!--Timeline of Work/Education  Section-->
    <div > <h1 class="text-center"  id=purple-myname style="padding-top: 20px; padding-bottom: 20px; padding-right: 20px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; border-bottom:solid 2px;">Education and Work</h1></div>
@@ -246,6 +246,13 @@ export default {
 </script>
 <style scoped>
 /* ------------------------------------------Timeline css------------------------------------------------------------------- */
+.timeline{
+
+ padding-left: 150px;
+    padding-right: 150px; 
+
+}
+
 body{
     background-color: #f7f7f7;
     margin-top:20px;

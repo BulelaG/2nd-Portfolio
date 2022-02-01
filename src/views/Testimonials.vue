@@ -3,10 +3,10 @@
    <Navbar />
 
   <!-- Testimonials Section -->
-    <section style="padding-top: 80px;  padding-right: 90px; padding-left: 90px;" id="testimonials-page">
+    <section style="padding-top: 120px;  padding-bottom: 120px; padding-right: 90px; padding-left: 90px;" id="testimonials-page">
       <br>
       <h1 id= "purple-myname" style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px; font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="text-center">Testimonials</h1>
-      <br><br>
+      
 
       
 
@@ -116,6 +116,12 @@ export default {
 
 </script>
 <style scoped>
+.testimonials{
+
+ padding-left: 150px;
+    padding-right: 150px; 
+
+}
 /* -------------------------------------------Portfolio CSS ----------------------------------------------------------------
 #portfolio-page{
     
