@@ -24,19 +24,26 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 mb-4">
-            <div style="border: 1px solid; border-radius: 5%" class="card">
+            <div
+              style="border: 1px solid; border-radius: 5%; height: 590px"
+              class="card"
+            >
               <img
-                style="border: 1px solid; border-radius: 5%"
+                style="border: 1px solid; border-radius: 5%; height:590px;"
                 src="../assets/NeededFiles/B-MOVING.jpg"
                 alt=""
                 class="card-img-top"
               />
+              
             </div>
           </div>
           <div class="col-lg-4 mb-4">
-            <div class="card">
+            <div
+              style="border: 1px solid; border-radius: 5%; height: 590px"
+              class="card"
+            >
               <div
-                style="border: 1px solid; border-radius: 5%"
+                style="border: 1px solid; border-radius: 5%; height: 590px"
                 class="card-body"
               >
                 <h4 id="purple-myname" class="card-title">
@@ -46,28 +53,44 @@
 
                 <h5>
                   <img
-                    src="https://img.icons8.com/color/48/000000/employee-card.png"
+                    src="https://img.icons8.com/color/38/000000/employee-card.png"
                   />Full name:
                 </h5>
                 <p>Bulela Gomoshe</p>
-                <h5><i class="fas fa-birthday-cake"></i> Date of birth:</h5>
+                <h5>
+                  <img
+                    src="https://img.icons8.com/emoji/38/000000/calendar-emoji.png"
+                  />
+                  Date of birth:
+                </h5>
                 26/02/2000 <br /><br />
-                <h5><i class="fas fa-globe-africa"></i> Location:</h5>
+                <h5>
+                  <img
+                    src="https://img.icons8.com/emoji/38/000000/south-africa-emoji.png"
+                  />
+                  Location:
+                </h5>
                 Cape Town<br /><br />
                 <h5>
-                  <i class="fas fa-phone-square-alt"></i> Cell Phone number:
+                  <img
+                    src="https://img.icons8.com/emoji/38/000000/telephone-receiver.png"
+                  />
+                  Cell Phone number:
                 </h5>
                 0672169078<br /><br />
-                <br />
-                <h5><i class="fas fa-at"></i>Email Address:</h5>
-                bulelagomoshe1@gmail.com <br /><br /><br />
+
+                <h5>
+                  <img
+                    src="https://img.icons8.com/emoji/38/000000/e-mail.png"
+                  />Email Address:
+                </h5>
+                bulelagomoshe1@gmail.com <br /><br />
                 <!-- </p> -->
                 <p class="card-text">
                   <small id="purple-myname">
                     <a
                       class="btn btn-primary download"
-                      href="../assets/NeededFiles/Bulela-G'sCURRICULUM-VITAE.pdf"
-                      download="CV"
+                      download="../assets/NeededFiles/Bulela.jpeg"
                       >Download CV</a
                     >
                   </small>
@@ -76,9 +99,9 @@
             </div>
           </div>
           <div class="col-lg-4 mb-4">
-            <div class="card">
+            <div style="border: 1px solid; border-radius: 5%" class="card">
               <div
-                style="border: 1px solid; border-radius: 5%"
+                style="border: 1px solid; height: 590px; border-radius: 5%"
                 class="card-body"
               >
                 <h5 class="card-title">
@@ -116,7 +139,7 @@
 
     <!-- MY SKILLS SECTION -->
 
-    <section style="padding-right: 90px; padding-left: 90px">
+    <section style="padding-right: 250px; padding-left: 250px">
       <div
         style="border: 1px solid; border-radius: 5%"
         id="myskills-cards display-flex"
@@ -216,6 +239,7 @@
         </div>
       </div>
     </section>
+    <br />
   </div>
 </template>
 
@@ -251,7 +275,38 @@ h1,
 #about-image {
   border-radius: 10%;
 }
+
+.badge-base {
+  height: 100% !important;
+}
 .card {
   border: none !important;
+}
+.profile-badge--dark {
+  background-color: #000;
+  color: #fff;
+  height: 590px !important;
+  padding-top: 200px;
+}
+.profile-badge__header--dark {
+  background-color: #38434f;
+}
+
+.profile-badge {
+  width: 100% !important;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.08),
+    1px 0px 1px rgba(0, 0, 0, 0.08), -1px 0px 1px rgba(0, 0, 0, 0.08),
+    0px 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.08), 1px 0px 1px rgba(0, 0, 0, 0.08),
+    -1px 0px 1px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.08);
+  padding: 0;
+  height: 590px !important;
+}
+
+.profile-badge--width-330 {
+  width: 100% !important;
 }
 </style>

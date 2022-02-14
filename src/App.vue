@@ -1,15 +1,9 @@
 <template>
-  <!-- <div id="nav">
-     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-     <router-link to="/projects">Projects</router-link> |
-      <router-link to="/testimonials">Testimonials</router-link> |
-      <router-linkrouter-link to="/contact">Contact</router-link> 
-       </div> -->
-<!-- The Nav -->
+ 
 <div id="nav">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <router-link style="  padding-right:1100px ;
+
+<router-link style="  padding-right:1100px ;
 " class="navbar-brand" to="/">
      <img href="/"
           id="logo"
@@ -21,15 +15,14 @@
           border-radius="45%"
           height="80"
         />
-  </router-link>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  </router-link>  
+   <button class="btn offie btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <span class="navbar-toggler-icon"></span></button>
+
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <router-link id="menu" to="/" class="nav-item nav-link active" >Home <span class="sr-only"></span></router-link>
       <router-link id="menu" to="/about" class="nav-item nav-link" > About </router-link>
-            <router-link id="menu" to="/timeline" class="nav-item nav-link" > Timeline </router-link>
+      <router-link id="menu" to="/timeline" class="nav-item nav-link" > Timeline </router-link>
       <router-link id="menu" to="/projects" class="nav-item nav-link" > Projects </router-link>
       <router-link id="menu" to="/testimonials" class="nav-item nav-link" > Testimonials </router-link>
       <router-link  id="menu" to="/contact" class="nav-item nav-link" > Contact </router-link>
@@ -40,7 +33,21 @@
 <!-- The Nav -end-->
 
 
- 
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Menu</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+   <router-link id="menu" to="/" class="nav-item nav-link active" >Home <span class="sr-only"></span></router-link>
+      <router-link id="menu" to="/about" class="nav-item nav-link" > About </router-link>
+            <router-link id="menu" to="/timeline" class="nav-item nav-link" > Timeline </router-link>
+      <router-link id="menu" to="/projects" class="nav-item nav-link" > Projects </router-link>
+      <router-link id="menu" to="/testimonials" class="nav-item nav-link" > Testimonials </router-link>
+      <router-link  id="menu" to="/contact" class="nav-item nav-link" > Contact </router-link>
+  </div>
+</div>
   
   
   <router-view/>
@@ -75,7 +82,10 @@ export default {
   color: rgb(2, 26, 136);
 }
 
-
+.offie{
+  display: none;
+  float: right;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -136,11 +146,20 @@ export default {
 }
 @media only screen and (max-width: 480px){
     /* --------------------------------------------HOME-PAGE-------------------------------- */ 
-.navbar-toggler{
-    position: fixed;
-    top:30px;
-    right:10px;
+
+.offie{
+  display: initial;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+}template{
+
+width: 100%;
+display:initial;
+
 }
+
 }
 
 
