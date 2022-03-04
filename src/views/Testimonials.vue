@@ -150,7 +150,7 @@ export default {
 @media only screen and (max-width: 1080px){
 
 
-.timeline{
+.testimonials{
 
  padding-left: 0px;
     padding-right: 0px; 
@@ -162,7 +162,7 @@ export default {
 @media only screen and (max-width: 780px){
 
 
-.timeline{
+.testimonials{
 
  padding-left: 0px;
     padding-right: 0px; 
@@ -174,7 +174,7 @@ export default {
 
 @media only screen and (max-width: 480px){
 
-  .timeline{
+  .testimonials{
 
  padding-left: 0px;
     padding-right: 0px; 

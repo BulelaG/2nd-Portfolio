@@ -59,6 +59,13 @@ export default {
 
 </script>
 <style scoped>
+.navbar-toggler-icon{
+
+    width: 2em;
+    height: 2em;
+
+}
+
 button{
   margin: 30px
   
