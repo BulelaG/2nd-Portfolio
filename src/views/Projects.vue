@@ -1,6 +1,5 @@
 <template>
   <div class="projects">
-    <Navbar />
     <br />
     <br />
     <br />
@@ -14,7 +13,7 @@
       class="text-center"
       style="
         padding-top: 2px;
-        padding-bottom: px;
+        padding-bottom: 20px;
         border-bottom: solid 2px;
         font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI',
           Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
@@ -129,10 +128,10 @@
 
     <!-- calling an array -->
 
-    <br /><br />
-    <br /><br />
-    <br /><br />
-    <br />
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/>
 
     <!-- new projects code -->
   </div>
@@ -148,11 +147,11 @@ export default {
 
   data() {
     return {
-      projects: null,
+      projects: [],
     };
   },
   mounted() {
-    fetch("http://localhost:5500")
+    fetch("https://bulela-portfolio-backend.herokuapp.com/")
       .then((response) => {
         return response.json();
       })
@@ -176,6 +175,7 @@ export default {
   min-height: 100vh;
   padding-left: 200px;
   padding-right: 200px;
+  overflow-y: hidden;
 }
 
 .social-link {
@@ -197,4 +197,42 @@ export default {
   text-decoration: none;
   color: #555;
 }
+@media only screen and (max-width: 1380px){
+
+
+.projects{
+
+padding-left: 0;
+padding-right: 0;
+
+}
+}
+@media only screen and (max-width: 780px){
+
+
+.projects{
+
+padding-left: 0;
+padding-right: 0;
+
+}
+}
+
+@media only screen and (max-width: 480px){
+
+  
+
+.projects{
+
+padding-left: 0;
+padding-right: 0;
+
+}
+
+}
+
+
+
+
+
 </style>

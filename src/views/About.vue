@@ -1,6 +1,5 @@
 <template>
   <div class="about">
-    <Navbar />
 
     <!-- About Section -->
     <br />
@@ -139,7 +138,7 @@
 
     <!-- MY SKILLS SECTION -->
 
-    <section style="padding-right: 250px; padding-left: 250px">
+    <section style="">
       <div
         style="border: 1px solid; border-radius: 5%"
         id="myskills-cards display-flex"
@@ -203,7 +202,7 @@
             <br />
             <img
               style="height: 280px; padding-left: 80px"
-              src="../assets/NeededFiles/sql.png"
+              src="../assets/NeededFiles/sql-2.png"
             />
             <div class="card-body"></div>
           </div>
@@ -216,7 +215,7 @@
 
             <img
               style="padding-left: 60px"
-              src="../assets/NeededFiles/JS.png"
+              src="../assets/NeededFiles/JS-2.png"
               class="card-img-top"
               alt="..."
             />
@@ -309,4 +308,38 @@ h1,
 .profile-badge--width-330 {
   width: 100% !important;
 }
+
+section{
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
+@media only screen and (max-width: 700px){
+
+
+template{
+
+width: 100%;
+display:initial;
+
+}
+section {
+
+  padding-left: 0;
+  padding-right: 0;
+}
+
+}
+
+@media only screen and (max-width: 480px){
+
+    template{
+
+width: 100%;
+display:initial;
+
+}
+}
+
+
 </style>

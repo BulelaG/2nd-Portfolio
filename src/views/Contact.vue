@@ -1,6 +1,5 @@
 <template>
   <div class="contact">
-   <Navbar />
 <br>
 <br>
 <br>
@@ -155,6 +154,40 @@ export default {
 
 padding-left: 200px;
 padding-right: 200px;
+}
+
+@media only screen and (max-width: 1380px){
+
+
+.contact{
+
+padding-left: 55px;
+padding-right: 55px;
+
+}
+}
+@media only screen and (max-width: 780px){
+
+
+.contact{
+
+padding-left: 55px;
+padding-right: 55px;
+
+}
+}
+
+@media only screen and (max-width: 480px){
+
+  
+
+.contact{
+
+padding-left: 35px;
+padding-right: 35px;
+
+}
+
 }
 
 

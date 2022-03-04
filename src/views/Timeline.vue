@@ -1,6 +1,5 @@
 <template>
   <div class="timeline">
-   <Navbar />
    <br>
       <br>
          <br>
@@ -78,14 +77,14 @@
                                   <div class="timeline-content">
                                     <h4> High Style </h4>
                                       <h5 id="purple-myname" class="title">Customer Service</h5>
-                                      <p class="description">
+                                      <ul class="description">
                                         <p>Shop Assistant </p>
                                         <p>Duties:
                                          Assisted with the daily operations around the shop, namely stock-taking, pricing and assisting customers with their needs </p>
                                        
-
+</ul>
                                         
-                                      </p>
+                                      
                                   </div>
                               </div> 
                               <!-- end experience section -->
@@ -106,12 +105,12 @@
                                     <h4> The Courier Guy </h4>
 
                                       <h5  id="purple-myname" class=" title">Warehouse/Driver Assistant</h5>
-                                      <p class="description">
+                                      <ul class="description">
                                        <p> Duties: Assisted the driver with deliveries & collections. </p>
                                        <p> Assisted with administration work (paperwork). </p>
                                        <p> Data capturing for the collections in and out of the warehouse.</p>
-                                        
-                                      </p>
+                                       </ul> 
+                                      
                                   </div>
                               </div>
                               <!-- end experience section-->
@@ -172,14 +171,14 @@
                                 <div class="timeline-content">
                                   <h4> ABC Printers </h4>
                                     <h5 id="purple-myname" class="title">Warehouse Assistance</h5>
-                                    <p class="description">
+                                    <ul class="description">
                                       <p>Warehouse Assistant </p>
                                       <p>Duties:
                                        Assisted with the daily operations around the warehouse, namely machine-operating assistance & maintanance,packing and packaging. </p>
                                      
-
+</ul>
                                       
-                                    </p>
+                                    
                                 </div>
                             </div>
                             <!-- end experience section-->
@@ -441,8 +440,108 @@ body{
     text-align: right
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1080px) {
+       .timeline{
+
+ padding-left: 0px;
+    padding-right: 0px; 
+
+}
     .main-timeline .date-content {
+        margin-top: 35px
+    }
+    .main-timeline .date-content:before {
+        width: 22.5%
+    }
+    .main-timeline .timeline-content {
+        padding: 10px 0 10px 30px
+    }
+    .main-timeline .title {
+        font-size: 17px
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 10px 30px 10px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+       .timeline{
+
+ padding-left: 0px;
+    padding-right: 0px; 
+
+}
+
+
+    .main-timeline:before {
+        margin: 0;
+        left: 7px
+    }
+    .main-timeline .timeline {
+        margin-bottom: 20px
+    }
+    .main-timeline .timeline:last-child {
+        margin-bottom: 0
+    }
+    .main-timeline .icon {
+        margin: auto 0
+    }
+    .main-timeline .date-content {
+        width: 95%;
+        float: right;
+        margin-top: 0
+    }
+    .main-timeline .date-content:before {
+        display: none
+    }
+    .main-timeline .date-outer {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date-outer:before,
+    .main-timeline .date-outer:after {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date {
+        top: 30%
+    }
+    .main-timeline .year {
+        font-size: 24px
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        width: 95%;
+        text-align: center;
+        padding: 10px
+    }
+    .main-timeline .title {
+        margin-bottom: 10px
+    }
+}
+
+@media only screen and (max-width: 700px){
+
+   .timeline{
+
+ padding-left: 0px;
+    padding-right: 0px; 
+
+}
+
+}
+
+@media only screen and (max-width: 480px){
+
+    .timeline{
+
+ padding-left: 0px;
+    padding-right: 0px; 
+
+}
+
+   .main-timeline .date-content {
         margin-top: 35px
     }
     .main-timeline .date-content:before {
@@ -500,10 +599,20 @@ body{
     .main-timeline .timeline:nth-child(2n) .timeline-content {
         width: 95%;
         text-align: center;
-        padding: 10px 0
+        padding: 10px
     }
     .main-timeline .title {
         margin-bottom: 10px
     }
 }
+
+
+
+
+
+
+
+
+
+
 </style>

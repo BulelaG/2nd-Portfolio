@@ -1,53 +1,11 @@
 <template>
  
-<div id="nav">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-<router-link style="  padding-right:1100px ;
-" class="navbar-brand" to="/">
-     <img href="/"
-          id="logo"
-          class="d-block mx-auto mb-4 img-responsive"
-          src="./assets/NeededFiles/LOGO.png"
-          alt=""
-          style="border: 3px solid white;"
-          width="80"
-          border-radius="45%"
-          height="80"
-        />
-  </router-link>  
-   <button class="btn offie btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <span class="navbar-toggler-icon"></span></button>
-
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <router-link id="menu" to="/" class="nav-item nav-link active" >Home <span class="sr-only"></span></router-link>
-      <router-link id="menu" to="/about" class="nav-item nav-link" > About </router-link>
-      <router-link id="menu" to="/timeline" class="nav-item nav-link" > Timeline </router-link>
-      <router-link id="menu" to="/projects" class="nav-item nav-link" > Projects </router-link>
-      <router-link id="menu" to="/testimonials" class="nav-item nav-link" > Testimonials </router-link>
-      <router-link  id="menu" to="/contact" class="nav-item nav-link" > Contact </router-link>
-    </div>
-  </div>
-</nav>
-  </div>
+<Navbar/>
 <!-- The Nav -end-->
 
 
 
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="offcanvas-header">
-    <h5 id="offcanvasRightLabel">Menu</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-   <router-link id="menu" to="/" class="nav-item nav-link active" >Home <span class="sr-only"></span></router-link>
-      <router-link id="menu" to="/about" class="nav-item nav-link" > About </router-link>
-            <router-link id="menu" to="/timeline" class="nav-item nav-link" > Timeline </router-link>
-      <router-link id="menu" to="/projects" class="nav-item nav-link" > Projects </router-link>
-      <router-link id="menu" to="/testimonials" class="nav-item nav-link" > Testimonials </router-link>
-      <router-link  id="menu" to="/contact" class="nav-item nav-link" > Contact </router-link>
-  </div>
-</div>
+
   
   
   <router-view/>
@@ -97,40 +55,6 @@ export default {
 }
 
 
-#nav {
-  
-  background-color: white;
-  position: fixed;
-  padding-top: 0;
-  padding-bottom: 0;
-  width: 100%;
-  z-index: 1;
-  
-}
-.navbar-nav{
-  padding-right:1100px ;
-   padding-top: 0;
-  padding-bottom: 0;
-  
-}
-
-#nav a {
-  font-weight: normal;
-  color: #2c3e50;
-
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-#nav a.router-link-exact-active {
- 
- 
-  color: rgb(2, 26, 136);
-}
-#menu{
-  font-size: 1.5em;
-  
-
-}
 /* -----------------------------------------Landing styling---------------------------------------------------------------------- */
 #landing-page{
     box-sizing: content-box;
@@ -144,7 +68,7 @@ export default {
     border: 8px;
     border-color: rgb(228, 215, 215);
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 700px){
     /* --------------------------------------------HOME-PAGE-------------------------------- */ 
 
 .offie{
@@ -160,6 +84,35 @@ display:initial;
 
 }
 
+}
+
+@media only screen and (max-width: 780px){
+
+    template{
+
+width: 100%;
+display:initial;
+
+}
+}
+
+@media only screen and (max-width: 480px){
+
+    template{
+
+width: 100%;
+display:initial;
+
+}
+}
+@media only screen and (max-width: 380px){
+
+    template{
+
+width: 100%;
+display:initial;
+
+}
 }
 
 
