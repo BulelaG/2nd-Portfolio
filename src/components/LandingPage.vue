@@ -3,7 +3,7 @@
 
     <!--HOME Landing Section  -->
     <section style="object-fit: cover;  padding-bottom: 50px;" id="landing-page">
-      <div class="px-4 py-5 text-center">
+      <div id="landing-image" class="px-4 py-5 text-center">
         <br><br><br><br><br>
         <img
           id="landing-photo"

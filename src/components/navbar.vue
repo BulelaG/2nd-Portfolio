@@ -13,7 +13,7 @@
           class="d-block mx-auto mb-4 img-responsive"
           src="@/assets/NeededFiles/LOGO.png"
           alt=""
-          style="border: 3px solid white;"
+          style="border: 1px solid white;"
           width="80"
           border-radius="45%"
           height="80"

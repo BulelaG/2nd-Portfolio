@@ -97,7 +97,12 @@ display:initial;
 }
 
 @media only screen and (max-width: 480px){
+#landing-image{
+ 
+    padding: 0px;
+    padding-left: 0px !important;
 
+}
     template{
 
 width: 100%;
@@ -107,6 +112,12 @@ display:initial;
 }
 @media only screen and (max-width: 380px){
 
+#landing-image{
+ 
+    padding: 0px;
+    padding-left: 0px !important;
+
+}
     template{
 
 width: 100%;
