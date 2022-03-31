@@ -10,7 +10,7 @@
           class="d-block mx-auto mb-4 img-responsive"
           src="../assets/NeededFiles/Bulela.jpeg"
           alt=""
-          style="border: 3px solid white;"
+          style="border: 3px solid white;;"
           width="372"
           height="357"
         />

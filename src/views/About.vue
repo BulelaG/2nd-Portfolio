@@ -87,11 +87,8 @@
                 <!-- </p> -->
                 <p class="card-text">
                   <small id="purple-myname">
-                    <a
-                      class="btn btn-primary download"
-                      download="../assets/NeededFiles/Bulela.jpeg"
-                      >Download CV</a
-                    >
+                   
+                    
                   </small>
                 </p>
               </div>

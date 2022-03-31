@@ -4,7 +4,7 @@
 
 
 <!-- big screen -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav width="140%" height="40%" class="navbar navbar-expand-lg navbar-light bg-light">
 
 <router-link style="  padding-right:1100px ;
 " class="navbar-brand" to="/">
@@ -59,6 +59,11 @@ export default {
 
 </script>
 <style scoped>
+.offcanvas-end {
+    width: 200px;
+    height: fit-content;
+}
+
 .navbar-toggler-icon{
 
     width: 2em;
