@@ -18,7 +18,7 @@
 
           <h6 id= "purple-myname">Head of Curriculum and Learning </h6>
 
-          <p>.<em>
+          <p><em>
             I have no hesitancy in writing a letter of recommendation for Bulela. </em></p><br>
 
         </div>

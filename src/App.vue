@@ -112,7 +112,7 @@ display:initial;
 }
 @media only screen and (max-width: 380px){
 
-#landing-image{
+#landing-photo{
  
     padding: 0px;
     padding-left: 0px !important;
@@ -124,7 +124,26 @@ width: 100%;
 display:initial;
 
 }
+
+
+}
+
+@media only screen and (max-width: 320px){
+
+#landing-photo{
+ width: 70%;
+ height: 30%;
+    padding: 0px;
+    padding-left: 0px !important;
+
+}
+    template{
+
+width: 100%;
+display:initial;
+
 }
 
 
+}
 </style>
