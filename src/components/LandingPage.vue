@@ -15,12 +15,12 @@
           height="357"
         />
        
-          <h1  id= purple-myname class="display-5 fw-bold" style="font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" > <b> Bulela Gomoshe</b></h1> <br>
+          <h1  id= purple-myname class="display-5 fw-bold" style="font-family: sans-serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" > <b> Bulela Gomoshe</b><hr class="text-center"  width="60%"/> </h1> <br>
         
         <div class="col-lg-6 mx-auto">
           <h2 class=" text-dark text-size-10pxlead mb-4">
-            I am an aspiring <b>Fullstack Developer</b>. 
-            <p>I offer <b>Web Development</b> services.</p> 
+           <em>I am an aspiring </em> <b>Fullstack Developer</b>. 
+            <p> <em>I offer </em> <b>Web Development</b> <em>services.</em> </p> 
             <p> Lets connect!</p>
           </h2>
           </div>
@@ -58,6 +58,12 @@ export default {
   }
 }
 </script>
+<style scoped>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-
+   hr {
+        color:rgb(47, 47, 211);
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+</style>

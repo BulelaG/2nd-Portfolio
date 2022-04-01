@@ -16,7 +16,7 @@
           style="border: 1px solid white;"
           width="80"
           border-radius="45%"
-          height="80"
+          height="40"
         />
   </router-link>  
    <button class="btn offie btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <span class="navbar-toggler-icon"></span></button>
