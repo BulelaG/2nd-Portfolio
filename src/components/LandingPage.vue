@@ -59,9 +59,8 @@ export default {
 }
 </script>
 <style scoped>
-
    hr {
-        color:rgb(47, 47, 211);
+     color:rgb(47, 47, 211);
         width: 70%;
         margin-left: auto;
         margin-right: auto;
