@@ -113,7 +113,7 @@ display:initial;
 @media only screen and (max-width: 380px){
 
 #landing-photo{
- 
+    object-fit: cover;
     padding: 0px;
     padding-left: 0px !important;
 
