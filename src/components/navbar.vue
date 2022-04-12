@@ -6,7 +6,7 @@
 <!-- big screen -->
 <nav width="140%" height="40%" class="navbar navbar-expand-lg navbar-light bg-light">
 
-<router-link style="  padding-right:1100px ;
+<router-link style="  padding-right:50% ;
 " class="navbar-brand" to="/">
      <img href="/"
           id="logo"
