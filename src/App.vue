@@ -63,10 +63,12 @@ export default {
     object-fit: cover;   
 }
 #landing-photo{
-    border-radius: 50%;
+   border-radius: 50%;
+    height: 400px;
+    object-fit: cover;
     border-style: solid;
     border: 8px;
-    border-color: rgb(228, 215, 215);
+    border-color: #e4d7d7;
 }
 @media only screen and (max-width: 700px){
     /* --------------------------------------------HOME-PAGE-------------------------------- */ 
