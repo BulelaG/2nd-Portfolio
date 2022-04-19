@@ -118,7 +118,7 @@
                     Where did my passion for coding start?
                   </h4>
                 </strong>
-                <br />
+                
                 <p>
                   Computer Science has always been an interest at the back of my
                   mind. I've always wondered
