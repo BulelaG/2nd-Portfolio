@@ -109,7 +109,7 @@ button{
   color: rgb(2, 26, 136);
 }
 #menu{
-  font-size: 1.5em;
+  font-size: 1.3em;
   
 
 }

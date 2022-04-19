@@ -121,7 +121,7 @@
                 <br />
                 <p>
                   Computer Science has always been an interest at the back of my
-                  mind. Generally I am a curious person, so I've always wondered
+                  mind. I've always wondered
                   how a computer works. In the past three years coding has been
                   something I've been seeing on my screen, and so I realised it
                   is a fundamental skill to learn in this day and age.
