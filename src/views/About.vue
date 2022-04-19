@@ -126,6 +126,7 @@
                   something I've been seeing on my screen, and so I realised it
                   is a fundamental skill to learn in this day and age.
                 </p>
+                <br>
               </div>
             </div>
           </div>
